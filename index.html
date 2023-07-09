@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Batfamily-Prototipo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/images/batman-01-logo-svg-vector.svg" alt="logo batman">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                
+                <li class="personagem selecionado" id="batman" data-name="batman"
+                    data-description="O vigilante mascarado da cidade de Gotham, é um símbolo da justiça implaçável e habilidades excepcionais de combate, lutando contra o crime com determinação implacável">
+                    <img src="./src/images/batman-card.jpg" alt="Personagem Batman" />
+                </li>
+
+                <li class="personagem" id="batwoman" data-name="batwoman"
+                    data-description="A vigilante de Gotham City, é uma lutadora feroz e determinada que compartilha o legado do Cavaleiro das Trevas, defendendo a cidade com sua coragem e habilidades excepcionais">
+                    <img src="./src/images/batwoman-card.jpg" alt="Personagem Batwoman" />
+                </li>
+
+                <li class="personagem" id="alfred" data-name="alfred"
+                    data-description="Alfred Pennyworth, o leal mordomo e confidente de Bruce Wayne, é um suporte indispensável para o Batman, oferecendo orientação sábia, habilidades versáteis e um coração dedicado à família Wayne">
+                    <img src="./src/images/alfred-card.jpg" alt="Personagem Alfred" />
+                </li>
+
+                <li class="personagem" id="batgirl" data-name="batgirl"
+                    data-description="A heroína destemida de Gotham City, é uma combatente ágil e inteligente que usa suas habilidades de luta e tecnologia para proteger a cidade, deixando sua marca como uma aliada valiosa do Batman">
+                    <img src="./src/images/batgirl-card.jpg" alt="Personagem Batgirl" />
+                </li>
+
+                <li class="personagem" id="nightwing" data-name="nightwing"
+                    data-description="O ex-protégé do Batman que se tornou um herói independente. Com habilidades acrobáticas e uma natureza destemida, ele combate o crime em Blüdhaven, honrando o legado do Cavaleiro das Trevas">
+                    <img src="./src/images/nightwing-card.jpg" alt="Personagem Nightwing" />
+                </li>
+
+                <li class="personagem" id="huntress" data-name="huntress"
+                    data-description="É uma vigilante implacável de Gotham City. Com sua herança de crime organizado e habilidades de combate excepcionais, ela busca vingança contra os criminosos, fazendo justiça de sua própria maneira
+                    ">
+                    <img src="./src/images/huntress-card.jpg" alt="Personagem Huntress" />
+                </li>
+
+                <li class="personagem" id="red-hood" data-name="red-Hood"
+                    data-description="É um anti-herói com uma abordagem brutal e implacável para combater o crime. Ele usa suas habilidades de combate e sua inteligência astuta para proteger Gotham City, enquanto carrega o peso de seu passado conturbado como o segundo Robin">
+                    <img src="./src/images/red-hood-card.jpg" alt="Personagem Red Hood" />
+                </li>
+
+                <li class="personagem" id="orphan" data-name="orphan"
+                    data-description="É uma habilidosa lutadora e mestra em artes marciais. Treinada desde a infância para se tornar uma assassina, ela busca redenção e luta do lado dos heróis, usando suas habilidades para proteger os inocentes">
+                    <img src="./src/images/orphan-card.jpg" alt="Personagem Orphan" />
+                </li>
+
+                <li class="personagem" id="red-robin" data-name="red-robin"
+                    data-description="É um estrategista talentoso e detetive habilidoso. Ele assume a identidade de Red Robin, usando sua mente brilhante e habilidades físicas para combater o crime e proteger Gotham City">
+                    <img src="./src/images/red-robin-card.jpg" alt="Personagem Red Robin" />
+                </li>
+
+                <li class="personagem" id="spoiler" data-name="spoiler"
+                    data-description="É uma vigilante com habilidades de combate e uma mente afiada. Ela luta contra o crime em Gotham City, usando suas habilidades de hacker e seu desejo de fazer a diferença para proteger os cidadãos e ajudar os outros heróis">
+                    <img src="./src/images/spoiler-card.jpg" alt="Personagem Spoiler" />
+                </li>
+
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/images/card-batman.png" alt="Personagem Selecionado" />
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Batman</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Batman, o vigilante mascarado da cidade de Gotham, é um símbolo da justiça implaçável e habilidades
+                    excepcionais de combate, lutando contra o crime com determinação implacável
+                </p>
+            </div>
+        </section>
+        <script src="./src/js/index.js"></script>
+    </main>
+</body>
+</html>
